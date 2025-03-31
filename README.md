@@ -27,7 +27,7 @@ give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 
-We currently have a few sorting algorithms with the best-case scenario complexity of N, but this is only when they are given a sorted list. The best-case scenario for a random list is a time complexity of O(nlogn), and this is only because they implement the idea of transitivity and a divide-and-conquer design strategy. Unless we find a third magical immutable law of numbers that allows us to intuit the condition of a portion of the array, there is no way to have an algorithm with the worst-case scenario of O(n).
+Any algorithm that compares two elements simultaneously cannot achieve a time complexity better than O(nlogn). So, algorithm X cannot be correct; it either doesn't properly sort some types of lists or doesn't do it inside a complexity of O(n).
 
 
 
